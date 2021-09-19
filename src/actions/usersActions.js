@@ -18,4 +18,3 @@ export const getUsers = () => async dispatch => {
         })
     }
 }
-//https://jsonplaceholder.typicode.com/todos

@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
-//import {getUsers} from '../actions/usersActions'
 import {getUsers} from '../actions/usersActions'
  
  class users extends Component {
@@ -18,7 +17,7 @@ import {getUsers} from '../actions/usersActions'
             <div>
                 {users.map(u => 
                      <React.Fragment key={u.id}>
-                         <h3>{u.name}</h3>             {/*{u.title} for todo*/}
+                         <h3>{u.name}</h3>            
                      </React.Fragment>
                 )}
             </div>
